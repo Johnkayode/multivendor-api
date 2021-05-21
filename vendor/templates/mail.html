@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <body>
+            <p style='font-size: 17px;'>
+                Hi {{new_user.first_name}} 👋,<br>
+            </p>   
+            
+            <p style='font-size: 17px; color: #222222;'>
+                Welcome to multivendor.io,
+                You are one step away from owning an account with us, confirm your account now  
+            </p>
+            <p style='font-size: 19px; color: #222222;'>
+                Confirmation Code : {{new_user.confirmation_code}}
+            </p>
+            <br>
+            <p>
+                Best wishes,<br>
+                John from multivendor.io
+            </p>
+    </div>
+</body>
+</html>

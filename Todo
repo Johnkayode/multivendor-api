@@ -1,0 +1,52 @@
+Vendor
+    - create account
+    - verify account
+    - add 2FA
+    - add shop details
+    - add bank account details
+    - add/edit/remove products' details and categories
+    - view all orders and customers' information
+    - update order progress for tracking
+    - view and withdraw from shop wallet
+    - view sales analytics
+    - open/closed
+    - suspended?
+
+Customer
+    - view vendors
+    - create account
+    - verify email
+    - buy from vendors
+    - add/remove from cart
+    - pay for order
+    - receive receipt, order details & tracking number
+    - track orders
+    - rate vendor/product
+    - report vendors
+     
+Product
+    - name
+    - category(s)
+    - price
+    - quantity
+    - image(s)
+    - vendor
+    - orders
+    - ratings
+
+Order
+    - customer details
+    - vendor
+    - total price
+    - tracking id
+    - order progress
+    - order items
+    - close/open
+
+Admin
+    - view vendors and details
+    - check vendors' wallets
+    - suspend vendors
+    - view recent orders
+    - view all orders
+    - wallet
